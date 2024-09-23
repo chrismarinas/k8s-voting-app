@@ -21,7 +21,7 @@ This demo repo is to document the steps needed to deploy a simple voting app on 
 
 ## Building Out the Infrastructure
 
-> ![NOTE]
+> [!NOTE]
 > You can verify what's happening in the `minikube` dashboard.
 > ```
 > minikube dashboard
