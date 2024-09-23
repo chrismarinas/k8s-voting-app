@@ -27,7 +27,7 @@ This demo repo is to document the steps needed to deploy a simple voting app on 
 > minikube dashboard
 > ```
 >
-> You must keep your terminal open! Don't forget to set the namespace to `vote`.
+> **You must keep your terminal open!** Don't forget to change the namespace to `vote`.
 >
 
 1. Create the `redis-deployment`.
@@ -122,6 +122,19 @@ This demo repo is to document the steps needed to deploy a simple voting app on 
 
 ## Useful Commands
 
+### kubectl
+
+Shortcuts for `kubectl` commands.
+
+| Command | Description | Shortcut |
+|-|-|-|
+| `kubectl * --namespace=<namespace>` | Run command for a namespace | `kubectl * -n <namespace>` |
+| `kubectl get deployments` | List all deployments | `kubectl get deploy` |
+| `kubectl get namespaces` | List all namespaces | `kubectl get ns` |
+| `kubectl get pods` | List all pods | `kubectl get po` |
+| `kubectl get services` | List all services | `kubectl get svc` |
+
+### minikube
 * Start `minikube`
     ```
     minikube start
